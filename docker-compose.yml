@@ -1,0 +1,60 @@
+version: "3.8"
+
+services:
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    environment:
+      PGADMIN_DEFAULT_EMAIL: 'u5500360@unimilitar.edu.co'
+      PGADMIN_DEFAULT_PASSWORD: 1234
+    ports:
+      - 5050:80
+    volumes:
+      - 'pgadmin-data:/var/lib/pgadmin'
+
+  postgres:
+    image: postgres:12
+    restart: always
+    environment:
+      - POSTGRES_USER=camzero
+      - POSTGRES_PASSWORD=1234
+    ports:
+      - '5432:5432'
+    volumes:
+      - db-data:/var/lib/postgresql/data
+
+  backend:
+    build:
+      context: backend
+      dockerfile: Dockerfile
+    command: python app/main.py
+    tty: true
+    volumes:
+      - ./backend:/app/:cached
+      - ./.docker/.ipython:/root/.ipython:cached
+    environment:
+      PYTHONPATH: .
+      DATABASE_URL: 'postgresql://camzero:1234@postgres:5432/postgres'
+    ports:
+      - 8000:8000
+    depends_on:
+      - "postgres"
+  frontend:
+    build:
+      context: proyect 
+      dockerfile: Dockerfile
+    stdin_open: true
+    volumes:
+      - './proyect:/app:cached'
+      - './proyect/node_modules:/app/node_modules:cached'
+    environment:
+      - NODE_ENV=development
+    ports:
+      - 3000:3000
+
+
+volumes:
+  pgadmin-data:
+  db-data:
+
+
+
