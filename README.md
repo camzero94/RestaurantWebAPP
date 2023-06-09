@@ -1,4 +1,7 @@
-# Web Service and  Application for Restaurants Owners. Recommendation System
+
+<p align="center"><img width=12.5% src="https://github.com/camzero94/RestaurantWebAPP/blob/main/media/chef.png"></p>
+
+# Recommmendation Platform for Restaurants
 
 ## Full Stack web service application with NextJS,FastApi and PostgresSQL.
 ## Full Stack React Native Application UI
