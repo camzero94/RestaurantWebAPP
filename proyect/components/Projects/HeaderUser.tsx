@@ -53,13 +53,6 @@ const HeaderUserPage: React.FC = () => {
               <Typography variant='body1'>Create new Project</Typography>
             </Button>
 
-            <Button
-              variant='outlined'
-              type='submit'
-              onClick={() => openModal()}
-            >
-              <Typography variant='body1'>Create new Project</Typography>
-            </Button>
 
           </Grid>
 
