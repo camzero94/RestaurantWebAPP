@@ -13,20 +13,20 @@
 
 Website platform that allow restaurants owners to use a user-based colaborative filtering recommendation algorithm to predict what user likes or dislike based on other user preference.
 ## Architecture
-<img src="https://github.com/camzero94/RestaurantWebAPP/blob/main/media/ProjectImage.png" width=40%>
+<p align ="center"><img src="https://github.com/camzero94/RestaurantWebAPP/blob/main/media/ProjectImage.png" width=40%></p>
 
 <br>
 
 ## Recommendation Engine
 Rating Recommendation Filtering System using Collaborative Filtering Algorithm, the rating of a menu in each restaurant is made by the user of the restaurant.
 
-<img src="https://github.com/camzero94/RestaurantWebAPP/blob/main/media/recom.png" width=40%>
+<p align="center"><img src="https://github.com/camzero94/RestaurantWebAPP/blob/main/media/recom.png" width=40%></p>
 
 <br>
 
 ## Features
 
-* Have an accOuntability of how many ingredients has the restaurant use during the start of the project.
+* Have an accountability of how many ingredients has the restaurant use during the start of the project.
 * Login and Sign up pages.
 * Watch the orders in real time in the Orders page.
 * Design your own customizable menu.
@@ -43,12 +43,12 @@ Rating Recommendation Filtering System using Collaborative Filtering Algorithm, 
 ### Sign up and Create your Customize Menu
 Sign up and create your own customizable menu, start by creating an ingredient , combine it to create a dish and finally add it to any menu you like.
 
-<img src="https://github.com/camzero94/RestaurantWebAPP/blob/main/media/Own_Menu.png" width=40%>
+<img src="https://github.com/camzero94/RestaurantWebAPP/blob/main/media/Own_Menu.png" width=70% height=50%>
 
 ### Check Out your Orders
 Check out your orders in real time and deliver it in time to the customer.
 
-<img src="https://github.com/camzero94/RestaurantWebAPP/blob/main/media/Own_Orders.png" width=40%>
+<img src="https://github.com/camzero94/RestaurantWebAPP/blob/main/media/Own_Orders.png" width=70% height=50%>
 
 ## External Dependencies
 
@@ -58,5 +58,5 @@ pip install docker docker-compose
 ```
 ## Pending Features
 - Improve recommendation algorithm with model base approach
-- Improvedesign of website make in it responsive 
+- Improve design of website make in it responsive 
 
