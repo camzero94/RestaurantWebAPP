@@ -43,12 +43,12 @@ Rating Recommendation Filtering System using Collaborative Filtering Algorithm, 
 ### Sign up and Create your Customize Menu
 Sign up and create your own customizable menu, start by creating an ingredient , combine it to create a dish and finally add it to any menu you like.
 
-<img src="https://github.com/camzero94/RestaurantWebAPP/blob/main/media/Own_Menu.png" width=70% height=50%>
+<p align="center"><img src="https://github.com/camzero94/RestaurantWebAPP/blob/main/media/Own_Menu.png" width=70% height=50%></p>
 
 ### Check Out your Orders
 Check out your orders in real time and deliver it in time to the customer.
 
-<img src="https://github.com/camzero94/RestaurantWebAPP/blob/main/media/Own_Orders.png" width=70% height=50%>
+<p align="center"><img src="https://github.com/camzero94/RestaurantWebAPP/blob/main/media/Own_Orders.png" width=70% height=50%></p>
 
 ## External Dependencies
 
