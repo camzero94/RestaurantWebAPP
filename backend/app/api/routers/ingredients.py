@@ -6,6 +6,7 @@ from app.db.schemas.user_project_schemas import (
     Ingredient,
     UpdateIngredient,
 )
+
 from app.db.session import get_db
 from app.db.server import (
     create_ingredient,
